@@ -26,19 +26,19 @@ export default function SearchBar({onSubmit}: SearchBarProps) {
             >
             Powered by TMDB
             </a>
-    <form action={handleSubmit} className={styles.form}>
-        <input
-            className={styles.input}
-            type="text"
-            name="query"
-            autoComplete="off"
-            placeholder="Search movies..."
-            autoFocus
-        />
-        <button className={styles.button} type="submit">
-        Search
-        </button>
-    </form>
+            <form action={handleSubmit} className={styles.form}>
+                <input
+                    className={styles.input}
+                    type="text"
+                    name="query"
+                    autoComplete="off"
+                    placeholder="Search movies..."
+                    autoFocus
+                />
+                <button className={styles.button} type="submit">
+                Search
+                </button>
+            </form>
         </div>
     </header>
 )
